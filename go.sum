@@ -1,3 +1,5 @@
+github.com/AviSantoso/patsy v0.0.0-20220525025924-e76ccbf01350 h1:DJ1KxrVIcbSnwzHdjeGuwO8pKF8uwEOoxQl08pgCjos=
+github.com/AviSantoso/patsy v0.0.0-20220525025924-e76ccbf01350/go.mod h1:gYy3k7d9BMksE3BESQwTK2cHABC97Q3J4OXp5zi7Lmw=
 github.com/dave/astrid v0.0.0-20170323122508-8c2895878b14 h1:YI1gOOdmMk3xodBao7fehcvoZsEeOyy/cfhlpCSPgM4=
 github.com/dave/astrid v0.0.0-20170323122508-8c2895878b14/go.mod h1:Sth2QfxfATb/nW4EsrSi2KyJmbcniZ8TgTaji17D6ms=
 github.com/dave/brenda v1.1.0 h1:Sl1LlwXnbw7xMhq3y2x11McFu43AjDcwkllxxgZ3EZw=

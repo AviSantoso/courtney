@@ -2,10 +2,8 @@ module github.com/AviSantoso/courtney
 
 go 1.18
 
-replace github.com/AviSantoso/patsy v0.0.0 => F:/code/misc/patsy
-
 require (
-	github.com/AviSantoso/patsy v0.0.0
+	github.com/AviSantoso/patsy v0.0.0-20220525025924-e76ccbf01350
 	github.com/dave/astrid v0.0.0-20170323122508-8c2895878b14
 	github.com/dave/brenda v1.1.0
 	github.com/pkg/errors v0.9.1
