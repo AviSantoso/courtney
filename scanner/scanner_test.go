@@ -7,8 +7,8 @@ import (
 
 	"path/filepath"
 
-	"github.com/dave/courtney/scanner"
-	"github.com/dave/courtney/shared"
+	"github.com/AviSantoso/courtney/scanner"
+	"github.com/AviSantoso/courtney/shared"
 	"github.com/dave/patsy"
 	"github.com/dave/patsy/builder"
 	"github.com/dave/patsy/vos"

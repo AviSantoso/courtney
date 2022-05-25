@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dave/courtney/shared"
-	"github.com/dave/courtney/tester/logger"
-	"github.com/dave/courtney/tester/merge"
+	"github.com/AviSantoso/courtney/shared"
+	"github.com/AviSantoso/courtney/tester/logger"
+	"github.com/AviSantoso/courtney/tester/merge"
 	"github.com/pkg/errors"
 	"golang.org/x/tools/cover"
 )
@@ -256,7 +256,7 @@ func (t *Tester) processDir(dir string) error {
 		return nil
 	}
 	if err != nil {
-		// TODO: Remove when https://github.com/dave/courtney/issues/4 is fixed
+		// TODO: Remove when https://github.com/AviSantoso/courtney/issues/4 is fixed
 		// notest
 		if t.setup.Verbose {
 			// They will already have seen the output
