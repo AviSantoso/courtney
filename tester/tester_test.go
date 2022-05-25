@@ -14,9 +14,9 @@ import (
 
 	"github.com/AviSantoso/courtney/shared"
 	"github.com/AviSantoso/courtney/tester"
-	"github.com/dave/patsy"
-	"github.com/dave/patsy/builder"
-	"github.com/dave/patsy/vos"
+	"github.com/AviSantoso/patsy"
+	"github.com/AviSantoso/patsy/builder"
+	"github.com/AviSantoso/patsy/vos"
 	"golang.org/x/tools/cover"
 )
 

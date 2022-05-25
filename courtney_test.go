@@ -13,9 +13,9 @@ import (
 	"os"
 
 	"github.com/AviSantoso/courtney/shared"
-	"github.com/dave/patsy"
-	"github.com/dave/patsy/builder"
-	"github.com/dave/patsy/vos"
+	"github.com/AviSantoso/patsy"
+	"github.com/AviSantoso/patsy/builder"
+	"github.com/AviSantoso/patsy/vos"
 )
 
 func TestRun(t *testing.T) {

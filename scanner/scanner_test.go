@@ -9,9 +9,9 @@ import (
 
 	"github.com/AviSantoso/courtney/scanner"
 	"github.com/AviSantoso/courtney/shared"
-	"github.com/dave/patsy"
-	"github.com/dave/patsy/builder"
-	"github.com/dave/patsy/vos"
+	"github.com/AviSantoso/patsy"
+	"github.com/AviSantoso/patsy/builder"
+	"github.com/AviSantoso/patsy/vos"
 )
 
 func TestSingle(t *testing.T) {

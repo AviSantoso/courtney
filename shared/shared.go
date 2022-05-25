@@ -3,8 +3,8 @@ package shared
 import (
 	"strings"
 
-	"github.com/dave/patsy"
-	"github.com/dave/patsy/vos"
+	"github.com/AviSantoso/patsy"
+	"github.com/AviSantoso/patsy/vos"
 )
 
 // Setup holds globals, environment and command line flags for the courtney
@@ -35,6 +35,7 @@ func (s *Setup) Parse(args []string) error {
 	}
 	packages := map[string]string{}
 	for _, ppath := range args {
+
 		ppath = strings.TrimSuffix(ppath, "/")
 
 		paths, err := s.Paths.Dirs(ppath)
